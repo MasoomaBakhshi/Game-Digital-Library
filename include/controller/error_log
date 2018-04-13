@@ -1,0 +1,10 @@
+[02-Dec-2016 05:51:40 Europe/Minsk] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/masoomab/public_html/game/include/controller/delete_blog_process.php:8) in /home/masoomab/public_html/game/include/functions/functions.php on line 5
+[02-Dec-2016 05:52:14 Europe/Minsk] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/masoomab/public_html/game/include/controller/delete_message_process.php:8) in /home/masoomab/public_html/game/include/functions/functions.php on line 5
+[28-Sep-2017 16:19:57 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/masoomab/public_html/game/public/pages/database_error.php on line 2
+[28-Sep-2017 16:20:02 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/masoomab/public_html/game/public/pages/database_error.php on line 2
+[28-Sep-2017 16:20:04 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/masoomab/public_html/game/public/pages/database_error.php on line 2
+[01-Nov-2017 10:09:32 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/masoomab/public_html/game/public/pages/database_error.php on line 2
+[13-Feb-2018 03:00:34 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/masoomab/public_html/game/public/pages/database_error.php on line 2
+[13-Feb-2018 19:29:26 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/masoomab/public_html/game/public/pages/database_error.php on line 2
+[13-Feb-2018 19:29:27 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/masoomab/public_html/game/public/pages/database_error.php on line 2
+[13-Feb-2018 19:29:27 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/masoomab/public_html/game/public/pages/database_error.php on line 2

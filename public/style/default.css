@@ -1,0 +1,534 @@
+/************* main herder***********/
+body{
+	background-image:url(../images/background.gif);
+	color:rgba(255,255,255,1.00);
+	}
+	
+	a{
+		color:#fff; 
+		}
+		.select{
+			text-decoration:underline;
+			}
+#log{
+	margin:8% 5% 8% 15%;
+	}
+		#alert,#alert-update,#alert-search,#alert-delete{
+			display:none;
+			width:80%;
+			margin:auto;
+			}
+			.error, .success, .welcome{				
+				width:98%;
+				padding:1%;
+				text-align:center;			
+				background-color:rgba(44,44,44,1.00);
+	           -webkit-box-shadow: 6px 6px 6px 0px rgba(0,0,0,0.72);
+              -moz-box-shadow: 6px 6px 6px 0px rgba(0,0,0,0.72);
+                box-shadow: 6px 6px 6px 0px rgba(0,0,0,0.72);
+				margin:2% auto;
+				font-size:1em;
+				font-weight:bold;
+				color:#fff;
+				}
+				.error{color:RED;}
+				.success{color:GREEN;}
+				.check{
+					float:right;}
+
+/************* web nav***********/
+
+.web-nav{
+	background-color:rgba(20,20,20,1);
+	-webkit-box-shadow: 6px 6px 6px 0px rgba(0,0,0,0.72);
+    -moz-box-shadow: 6px 6px 6px 0px rgba(0,0,0,0.72);
+     box-shadow: 6px 6px 6px 0px rgba(0,0,0,0.72);
+	width:100%;
+	}
+	#company-logo{
+		width:10em;}
+	.web-nav-img{
+		width:70%;
+		}
+	.web-nav-icon{
+		font-size:1.5em;
+		}
+		.nav-pills > li> a:hover{
+	background-color:rgba(20,20,20,1);
+			text-decoration:underline;
+			color:rgba(255,255,255,1)
+			}
+	.navbar-header button{
+	background-color:rgba(20,20,20,1);
+		}
+		.icon-bar{
+			color:#000;
+			}
+			.fixnav{
+				position:fixed;
+				top:0;
+				z-index:1000;
+			}
+/************* web jumbotron***********/
+.jumbotron{
+	background:url(../images/jumbo2.jpg);
+	background-size:cover;
+	margin:auto;
+	margin-top:1%;
+	-webkit-box-shadow: 6px 6px 6px 0px rgba(0,0,0,0.72);
+    -moz-box-shadow: 6px 6px 6px 0px rgba(0,0,0,0.72);
+     box-shadow: 6px 6px 6px 0px rgba(0,0,0,0.72);
+	width:100%;
+	height:25em;
+	}
+	.img-jumb{
+		margin-top:auto;
+		}
+		.qoute{
+			color:#fff;
+			text-align:center;
+			margin:5em 1%;			
+			}
+		.qoute footer{
+	       background-color:rgba(20,20,20,1);
+			border:rgba(0,0,0,1);
+			color:rgba(255,255,255,1);
+			}
+
+/************* admin header***********/
+.nav-admin{
+	width:100%;
+	height:5%;
+	background-color:rgba(0,0,0,.3);
+	margin:auto;
+	}
+		.profile{
+			width:55%;
+			height:14em;
+			}
+	.logo-admin{
+		float:left;
+		margin:1%;
+				}
+		.logo{
+			width:15%;
+			margin:auto;
+			}
+		.user-info{
+		float:right;
+		margin:1%;
+				}
+				
+/************* admin dashboard***********/			
+.head{
+	clear:both;
+	width:98%;
+	margin:auto;
+	margin-top:1%;
+	padding:2%;
+	-webkit-box-shadow: 8px 8px 8px 0px rgba(0,0,0,0.72);
+    -moz-box-shadow: 8px 8px 8px 0px rgba(0,0,0,0.72);
+     box-shadow: 8px 8px 8px 0px rgba(0,0,0,0.72);
+	background-color:rgba(44,44,44,1.00);
+	}
+.breadcrumb{
+	width:98%;
+	margin:auto;
+	clear:both;
+	padding:1%;
+	-webkit-box-shadow: 6px 6px 6px 0px rgba(0,0,0,0.72);
+    -moz-box-shadow: 6px 6px 6px 0px rgba(0,0,0,0.72);
+     box-shadow: 6px 6px 6px 0px rgba(0,0,0,0.72);
+	background-color:rgba(44,44,44,1.00);
+	margin-top:2%;
+}
+.breadcrumb a:hover{
+	text-decoration:underline;
+	color:#fff;
+	}
+
+/************* admin body***********/
+section{
+	width:98%;
+	background-color:rgba(44,44,44,1.00);
+	-webkit-box-shadow: 6px 6px 6px 0px rgba(0,0,0,0.72);
+    -moz-box-shadow: 6px 6px 6px 0px rgba(0,0,0,0.72);
+     box-shadow: 6px 6px 6px 0px rgba(0,0,0,0.72);
+	background-color:rgba(44,44,44,1.00);
+	margin:2% 1%;
+	overflow:hidden;
+	}
+	section h2{
+		background-color:rgba(0,0,0,.3);
+		padding:1%;
+	-webkit-box-shadow: 6px 6px 6px 0px rgba(0,0,0,0.72);
+    -moz-box-shadow: 6px 6px 6px 0px rgba(0,0,0,0.72);
+     box-shadow: 6px 6px 6px 0px rgba(0,0,0,0.72);
+		margin:1%;
+		margin-bottom:2%;
+		text-align:center;
+		}
+		form{
+			margin:1%;}
+	.info{
+		margin-top:2%;
+		}
+	.game-item{
+		font-size:3em;
+		}
+	.user, .Game{
+		margin:3%;
+		height:10%;
+		}
+		.main{
+			padding:1%;
+			}
+			#table-header{
+				background-color:rgba(0,0,0,.3);
+				}
+				#selection{
+					margin:8% auto;}
+.game-viewimg{
+	width:60%;
+	height:15em;
+	margin:1%;
+	}	
+.game-viewvideo{
+	width:85%;
+	height:15em;
+	}					
+/************Panel*************/
+		.panel-group{
+			margin-top:1%;
+			}
+			.panel-default{
+				background-color:rgba(44,44,44,1.00);
+				}
+				.active li{
+				background-color:rgba(0,0,0,.3);
+					}
+		.tab-content{
+			margin-top:2%;
+		}
+/************modal*************/
+.modal-dialog {
+	width:90%;
+	padding:1%;
+	background-image:url(../images/transparent.png);}
+.modal-content{
+	-webkit-box-shadow: 6px 6px 6px 0px rgba(0,0,0,0.72);
+    -moz-box-shadow: 6px 6px 6px 0px rgba(0,0,0,0.72);
+     box-shadow: 6px 6px 6px 0px rgba(0,0,0,0.72);
+	}	
+	.modal-header{
+		font-weight:bolder;
+	background-color:rgba(20,20,20,1);
+		}
+		.modal-header .close{
+			color:#fff;
+			padding:1%;
+			border:2px solid #fff;
+			}
+			.modal-title{
+				font-weight:bolder;
+				}
+	.modal-body{
+				background-color:rgba(44,44,44,1.00);
+		}
+		.modal-body h4{
+			font-weight:bolder;
+			}
+			.modal-footer{
+	          background-color:rgba(20,20,20,1);
+				color:#fff;
+				}
+			.modal-img{
+				width:60%;
+				}
+			.modal-video{
+				width:90%;
+				height:20em;
+	           -webkit-box-shadow: 6px 6px 6px 0px rgba(0,0,0,0.72);
+               -moz-box-shadow: 6px 6px 6px 0px rgba(0,0,0,0.72);
+               box-shadow: 6px 6px 6px 0px rgba(0,0,0,0.72);
+				}
+				.modal-img{
+					width:80%;
+					height:20em;
+					margin:auto;					
+	               -webkit-box-shadow: 6px 6px 6px 0px rgba(0,0,0,0.72);
+                   -moz-box-shadow: 6px 6px 6px 0px rgba(0,0,0,0.72);
+                    box-shadow: 6px 6px 6px 0px rgba(0,0,0,0.72);}
+/************* table-body***********/
+.table{
+	width:95%;
+	margin:auto;
+	}
+	.table-striped th{
+			color:rgba(0,0,0,1);
+			}
+/************* web-body***********/
+/**************game info************/
+
+.lists{
+	padding:1%;
+	text-align:center;
+	}
+	.list{
+	padding:1%;
+	}
+	
+		.panel-default{
+			background-color:rgba(0,0,0,.3);
+			}
+			.panel-title{
+				font-weight:bolder;
+				color:#000;
+				}
+				.game-in-list{
+					padding:1%;
+		            background-color:rgba(0,0,0,.3);
+					color:#fff;
+					margin:1%;
+	               -webkit-box-shadow: 6px 6px 6px 0px rgba(0,0,0,0.72);
+                   -moz-box-shadow: 6px 6px 6px 0px rgba(0,0,0,0.72);
+                    box-shadow: 6px 6px 6px 0px rgba(0,0,0,0.72); 
+					}
+					.game-des h4{
+						font-weight:bolder;
+						font-size:1em;
+/******conac************/						}
+						
+.contact{
+		margin:4% 1%;
+		}
+/*******************abou******/		
+.about{
+	margin:1% 2% 1% 2%;
+	}
+	.about blockquote{
+		margin:5%;
+		}
+/**********index******************/		
+.caro-img{
+	width:15em;
+	height:15em;
+	}
+.caro-video{
+	width:35em;
+	height:15em;
+	-webkit-box-shadow: 6px 6px 6px 0px rgba(0,0,0,0.72);
+    -moz-box-shadow: 6px 6px 6px 0px rgba(0,0,0,0.72);
+     box-shadow: 6px 6px 6px 0px rgba(0,0,0,0.72);
+	}
+.list-img{
+	width:13em;
+	height:13em;
+	}
+.list-video{
+	width:35em;
+	height:15em;
+	-webkit-box-shadow: 6px 6px 6px 0px rgba(0,0,0,0.72);
+    -moz-box-shadow: 6px 6px 6px 0px rgba(0,0,0,0.72);
+     box-shadow: 6px 6px 6px 0px rgba(0,0,0,0.72);
+	}
+	#carousel-game{
+			text-align:center;
+		}
+/***************blog*************/
+.blog{
+	overflow:hidden;
+	}
+	.blogcontent {
+		margin:1% 4% 1% 1%;
+		width:100%;
+		display:block;		
+	   overflow:hidden;
+		}
+	.blogpara {		
+		margin:2% 2% 2% 2%;
+		display:block;			
+	   overflow:hidden;
+		}
+.blogvideo{
+	clear:both;
+	width:70%;
+	height:25em;
+	margin:1%;
+	-webkit-box-shadow: 6px 6px 6px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 6px 6px 6px 0px rgba(0,0,0,1);
+     box-shadow: 6px 6px 6px 0px rgba(0,0,0,1);
+	}
+	.blog_image_small{
+	   margin:2%;
+	-webkit-box-shadow: 6px 6px 6px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 6px 6px 6px 0px rgba(0,0,0,1);
+     box-shadow: 6px 6px 6px 0px rgba(0,0,0,1);
+		float:left;
+		width:12%;
+	    height:12em;
+		display:inline-block;			
+	   overflow:hidden;
+		}
+	.blogimage	{
+	   margin:2%;
+	-webkit-box-shadow: 6px 6px 6px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 6px 6px 6px 0px rgba(0,0,0,1);
+     box-shadow: 6px 6px 6px 0px rgba(0,0,0,1);
+		float:left;
+		width:20%;
+	    height:20em;
+		display:inline-block;			
+	   overflow:hidden;
+		}
+		.blog-row{
+			width:98%;
+			margin:auto;
+			}
+		.blog-list{
+	   margin:2%;
+	   -webkit-box-shadow: 6px 6px 6px 0px rgba(0,0,0,1);
+       -moz-box-shadow: 6px 6px 6px 0px rgba(0,0,0,1);
+        box-shadow: 6px 6px 6px 0px rgba(0,0,0,1);
+	background-color:rgba(44,44,44,1.00);
+		display:inline-block;
+		float:left;
+		height:10em;
+					}
+		.comment_pic{
+			width:100%;
+			height:5em;}			
+						
+/************* footer***********/
+footer{
+	padding:1%;
+	margin:auto;
+	clear:both;
+	background-color:rgba(20,20,20,1);
+	-webkit-box-shadow: 6px 6px 6px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 6px 6px 6px 0px rgba(0,0,0,1);
+     box-shadow: 6px 6px 6px 0px rgba(0,0,0,1);
+	text-align:center;
+	}
+	.policy{
+		display:none;
+		}
+		.policy:hover{
+			font-size:1em;
+			}		
+/******mobile****************/
+@media screen{
+@media screen and (min-width:780px) and (max-width: 850px) {
+	#carousel-game{
+			text-align:center;
+		}
+	.blogimage,.blog_image_small	{
+		float:none;
+		width:90%;
+		margin:5%;
+	    height:15em;
+		display:block;
+		}
+		.blogvideo{
+	clear:both;
+	width:90%;
+	height:15em;
+	margin:auto;
+	}
+	.game-viewimg{
+	width:80%;
+	height:15em;
+	margin:auto;
+	}	
+.game-viewvideo{
+	width:100%;
+	height:20em;
+	margin:auto;
+	}
+	}
+@media screen and (min-width:300px) and (max-width: 780px) {
+	.blogimage,.blog_image_small	{
+		float:none;
+		width:90%;
+		margin:5%;
+	    height:15em;
+		display:block;
+		}
+		.blogvideo{
+	clear:both;
+	width:90%;
+	height:15em;
+	margin:auto;
+	}
+	.game-viewimg{
+	width:90%;
+	height:15em;
+	margin:auto;
+	}	
+.game-viewvideo{
+	width:90%;
+	height:15em;
+	margin:auto;
+	}
+	#carousel-game,.list{
+			text-align:center;
+	     }
+
+		.profile{
+			width:45%;
+			height:13em;
+			}
+		.game-img{
+		width:98%;
+		}
+	.comment_pic{
+		width:70%;}
+		.dash,.userprofile{
+			text-align:center;}
+			h4{
+				font-size:1.2em;}
+	}	
+@media screen and (min-width: 0px) and (max-width: 300px) {
+	
+	.blogimage, .blog_image_small	{
+		float:none;
+		width:98%;
+		margin:auto;
+	    height:25em;
+		display:block;
+		}
+		#carousel-game,.list{
+			text-align:center;
+	     }
+		.blogvideo{
+	clear:both;
+	width:98%;
+	height:25em;
+	margin:auto;
+	}
+	.game-viewimg{
+	width:95%;
+	height:15em;
+	margin:auto;
+	}	
+.game-viewvideo{
+	width:95%;
+	height:15em;
+	margin:auto;
+	}
+	.profile{
+			width:55%;
+			height:13em;
+			}
+			.game-img{
+		width:50%;
+		}	
+.jumbotron,#slide{
+	display:none;
+	}
+	.dash,.userprofile{
+			text-align:center;	
+		}
+		h4{
+				font-size:1.2em;}
+}				
